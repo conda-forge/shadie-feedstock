@@ -1,5 +1,5 @@
 {% set name = "shadie" %}
-{% set version = "v1.0.2" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/elissasoroj/shadie/archive/{{ version }}.tar.gz
-  sha256: f4b8f43a6e916b9707baaf4c81a1ad69a68d565c46cfa6ff7fb1c561ef2f423b
+  sha256: cd66043a809c649c935e1c42d8da1ad3451ca95cc5d47aedb8307c88e3092ff7
 
 build:
   noarch: python
